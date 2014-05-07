@@ -1,0 +1,19 @@
+// File: less/my-check-button.less
+// Author: Tim Sullivan
+// Main styles for the my-check-button component
+
+input.my-check-button {
+	display: none;
+}
+
+.my-check-button {
+	&:after {
+		content: ': [ ]';
+	}
+}
+
+.my-check-button-yes {
+	&:after {
+		content: ': [X]';
+	}
+}

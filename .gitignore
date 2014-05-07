@@ -1,0 +1,24 @@
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r. (http://thread.gmane.org/gmane.comp.version-control.git/102266)
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Node.js files
+npm-debug.log
+node_modules
+
+# Other files
+# This is to be installed with 'bower install' for building the example pages as-needed
+examples/components
+# This code is generated with 'grunt build'
+examples/css

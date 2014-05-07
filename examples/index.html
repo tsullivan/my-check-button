@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Check Button Component Test</title>
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+
+<h1>My Check Button Component Test</h1>
+
+<p>Click a button to toggle the checked/unchecked state.</p>
+
+<form method="get" action="">
+    <p>
+        Checked by default:
+        <input type="checkbox" class="my-check-button" name="button1" value="1" id="default-on" checked>
+        <button type="button" class="test-button my-check-button" data-my-check-button-toggle="#default-on">Button 1</button>
+    </p>
+
+    <p>
+        Unchecked by default:
+        <input type="checkbox" class="my-check-button" name="button2" value="1" id="default-off">
+        <button type="button" class="test-button my-check-button" data-my-check-button-toggle="#default-off">Button 2</button>
+    </p>
+
+    <p>
+        (Bonus) Anchor tag:
+        <input type="checkbox" class="my-check-button" name="anchor1" value="1" id="anchor1">
+        <a href="#" class="test-button my-check-button" data-my-check-button-toggle="#anchor1">Link</a>
+    </p>
+
+    <input type="submit">
+</form>
+
+<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/my-check-button.js"></script>
+<script type="text/javascript">
+    MyCheckButton.initialize('.test-button');
+</script>
+</body>
+</html>
