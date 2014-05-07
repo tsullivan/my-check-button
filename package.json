@@ -1,0 +1,19 @@
+{
+  "name": "my-check-button",
+  "version": "0.0.1",
+  "description": "Example component",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.4",
+    "less": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Tim Sullivan",
+    "url": "https://github.com/tsullivan"
+  }
+}
