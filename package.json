@@ -2,6 +2,10 @@
   "name": "my-check-button",
   "version": "0.0.1",
   "description": "Example component",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tsullivan/my-check-button.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt-contrib-less": "^0.11.0",
