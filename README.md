@@ -25,13 +25,15 @@ A sample UI component for use with Bower.
 
         <form ...>
             <p>
+                <!-- '.my-check-button' makes the input hidden -->
                 <input type="checkbox" value="1" class="my-check-button" id="check1" name="check1" checked>
-                <button type="button" class="my-check-button" data-my-check-button-toggle="check1">Check 1 IS checked</button>
+                <!-- 'data-my-check-button-toggle="#check1"' attributes binds the button to the above checkbox -->
+                <button type="button" class="my-check-button" data-my-check-button-toggle="#check1">Check 1 IS checked</button>
             </p>
 
             <p>
                 <input type="checkbox" value="1" class="my-check-button" id="check2" name="checkbutton1">
-                <button type="button" class="my-check-button" data-my-check-button-toggle="check2">Check 2 ISN'T checked</button>
+                <button type="button" class="my-check-button" data-my-check-button-toggle="#check2">Check 2 ISN'T checked</button>
             </p>
 
             ...
