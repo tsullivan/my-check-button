@@ -53,4 +53,4 @@ A sample UI component for use with Bower.
 2. `npm install`
 3. `bower install`
 4. `grunt build`
-5. `cd examples && python -m SimpleHTTPServer 8080`
+5. `httpster -d examples # https://github.com/SimbCo/httpster`
