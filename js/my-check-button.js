@@ -1,7 +1,7 @@
 /* File: js/my-check-button.js
  * Author: Tim Sullivan */
 
-var MyCheckButton = {
+var myCheckButton = {
 	/*
 	 * Toggle the check when the button is clicked
 	 * @param event (jQuery Event): Mouse click event
@@ -37,6 +37,6 @@ var MyCheckButton = {
 	}
 };
 
-// Make this module usable with or without Browserify
+// Make this module usable with Browserify
 var module = module || {};
-module.exports = MyCheckButton;
+module.exports = myCheckButton;

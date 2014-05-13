@@ -41,11 +41,11 @@ A sample UI component for use with Bower.
 
 4. Incorporate the dependent JavaScript using a module loader like Browserify:
 
-    var MyCheckButton = require('path/to/my-check-button');
+    var myCheckButton = require('path/to/my-check-button');
 
 5.  Initialize the check button elements using a selector of the button input elements
 
-    MyCheckButton.initialize('button');
+    myCheckButton('button');
 
 
 ##Steps to run example code
