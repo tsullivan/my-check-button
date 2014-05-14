@@ -4,6 +4,7 @@
   "ignore": [
     ".editorconfig",
     ".gitignore",
+    ".bowerrc",
     "bower.json",
     "Gruntfile.js",
     "node_modules",
